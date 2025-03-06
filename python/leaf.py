@@ -8,6 +8,8 @@ def leaf_details_to_csv(file_pat, detail):
         writer.writerows(details)
 
 
+
+
 def add_ninja(detail):
     try:
         with open(file_path, 'r') as file:
